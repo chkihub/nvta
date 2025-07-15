@@ -1,0 +1,438 @@
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TIMETRADE AGENCY - Recruitment</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#FF69B4',
+            secondary: '#FFB6C1',
+            accent: '#FF1493',
+            dark: '#4A4A4A',
+            light: '#F8F9FA',
+            whatsapp: '#25D366',
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+          },
+          boxShadow: {
+            'custom': '0 10px 25px -5px rgba(255, 105, 180, 0.1), 0 8px 10px -6px rgba(255, 105, 180, 0.1)',
+            'card': '0 20px 25px -5px rgba(0, 0, 0, 0.05), 0 10px 10px -5px rgba(0, 0, 0, 0.01)',
+          }
+        },
+      }
+    }
+  </script>
+  <style type="text/tailwindcss">
+    @layer utilities {
+      .content-auto {
+        content-visibility: auto;
+      }
+      .text-shadow {
+        text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      }
+      .bg-gradient-custom {
+        background: linear-gradient(135deg, #FF69B4 0%, #FFB6C1 100%);
+      }
+      .transition-custom {
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      .hover-scale {
+        transition: transform 0.3s ease;
+      }
+      .hover-scale:hover {
+        transform: scale(1.03);
+      }
+    }
+  </style>
+</head>
+<body class="bg-light font-sans text-dark">
+  <!-- Navigation Bar -->
+  <nav id="navbar" class="fixed w-full z-50 transition-all duration-300 bg-white/90 backdrop-blur-sm shadow-sm">
+    <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+      <div class="flex items-center">
+        <i class="fa fa-heart text-primary text-2xl mr-2"></i>
+        <span class="text-xl font-bold text-primary">TIMETRADE AGENCY</span>
+      </div>
+      <a href="https://api.whatsapp.com/send/?phone=8617705921585&amp;" target="_blank" class="bg-whatsapp hover:bg-whatsapp/90 text-white font-medium py-2 px-4 rounded-full shadow-md transition-all duration-300 hover:shadow-lg hover:-translate-y-1 flex items-center">
+        <i class="fa fa-whatsapp mr-2"></i> Contact Us
+      </a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="pt-24 pb-16 md:pt-32 md:pb-24 bg-gradient-to-br from-primary/5 to-secondary/5">
+    <div class="container mx-auto px-4 text-center">
+      <div class="inline-block mb-4 px-4 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">
+        <i class="fa fa-bullhorn mr-1"></i> Now Recruiting
+      </div>
+      <h1 class="text-[clamp(2rem,5vw,3.5rem)] font-bold text-dark leading-tight mb-6">
+        TIMETRADE <span class="text-primary">AGENCY</span><br>
+        <span class="text-lg md:text-xl text-gray-600 font-normal mt-2 block">Earn Daily, Work Freely</span>
+      </h1>
+      <div class="max-w-2xl mx-auto">
+        <p class="text-gray-600 mb-8 text-lg">Create a female-friendly work environment where your talents and charm can shine!</p>
+        <a href="https://api.whatsapp.com/send/?phone=8617705921585&amp;" target="_blank" class="bg-gradient-custom hover:opacity-90 text-white font-semibold py-4 px-8 rounded-full shadow-custom transition-all duration-300 hover:shadow-lg text-xl flex items-center mx-auto justify-center flex-col">
+          <i class="fa fa-whatsapp mr-2"></i>
+          <span class="text-xl md:text-2xl">Sign Up Now</span>
+        </a>
+        <div class="mt-3 text-sm font-medium text-primary">Get Newcomer Gift Pack</div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Platform Highlights -->
+    <section id="features" class="py-16 md:py-24 bg-white">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+          <h2 class="text-[clamp(1.8rem,4vw,2.5rem)] font-bold text-dark mb-4">Platform Highlights</h2>
+          <p class="text-gray-600 max-w-2xl mx-auto">Diverse work styles to showcase your charm and talents</p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <!-- Text Interaction -->
+          <div class="bg-white rounded-xl shadow-card p-6 hover-scale">
+            <div class="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+              <i class="fa fa-comment text-primary text-2xl"></i>
+            </div>
+            <h3 class="text-xl font-bold mb-3">Text Interaction</h3>
+            <p class="text-gray-600">Chat with words, share daily life, emotions, and interesting stories. Every text interaction may bring you surprise rewards.</p>
+          </div>
+          
+          <!-- Voice Chat -->
+          <div class="bg-white rounded-xl shadow-card p-6 hover-scale">
+            <div class="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+              <i class="fa fa-microphone text-primary text-2xl"></i>
+            </div>
+            <h3 class="text-xl font-bold mb-3">Voice Chat</h3>
+            <p class="text-gray-600">Use your gentle or lively voice to be a "voice companion" in the voice room. Chat, sing, and play games with listeners. Monetize your voice easily.</p>
+          </div>
+          
+          <!-- Video Showcase -->
+          <div class="bg-white rounded-xl shadow-card p-6 hover-scale">
+            <div class="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+              <i class="fa fa-video-camera text-primary text-2xl"></i>
+            </div>
+            <h3 class="text-xl font-bold mb-3">Video Showcase</h3>
+            <p class="text-gray-600">Share life vlogs, beauty tips, and talent performances through videos. Attract fans with your camera skills and earn gifts through video interactions.</p>
+          </div>
+          
+          <!-- Skill Monetization -->
+          <div class="bg-white rounded-xl shadow-card p-6 hover-scale">
+            <div class="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+              <i class="fa fa-gift text-primary text-2xl"></i>
+            </div>
+            <h3 class="text-xl font-bold mb-3">Skill Monetization</h3>
+            <p class="text-gray-600">Leverage your professional skills to provide online consultations, course sharing, and other services. Let your talents create value.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Advantages -->
+    <section id="benefits" class="py-16 md:py-24 bg-gray-50">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+          <h2 class="text-[clamp(1.8rem,4vw,2.5rem)] font-bold text-dark mb-4">Work Advantages</h2>
+          <p class="text-gray-600 max-w-2xl mx-auto">Flexible and free, daily payment, start your new online earning experience</p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Daily Payment -->
+          <div class="bg-white rounded-xl p-6 shadow-card hover-scale">
+            <div class="flex items-start">
+              <div class="bg-primary/10 p-3 rounded-lg mr-4">
+                <i class="fa fa-calendar-check-o text-primary text-xl"></i>
+              </div>
+              <div>
+                <h3 class="text-xl font-bold mb-3">Daily Payment</h3>
+                <p class="text-gray-600">Earn daily, settle daily! No need to wait for monthly payments. Pocket money and small goals can be achieved immediately.</p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Flexible Hours -->
+          <div class="bg-white rounded-xl p-6 shadow-card hover-scale">
+            <div class="flex items-start">
+              <div class="bg-primary/10 p-3 rounded-lg mr-4">
+                <i class="fa fa-clock-o text-primary text-xl"></i>
+              </div>
+              <div>
+                <h3 class="text-xl font-bold mb-3">Flexible Hours</h3>
+                <p class="text-gray-600">Morning, afternoon, evening, or fragmented time - work whenever you want! Between classes/work, before bedtime, start your "money-making mode" anytime.</p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Location Independence -->
+          <div class="bg-white rounded-xl p-6 shadow-card hover-scale">
+            <div class="flex items-start">
+              <div class="bg-primary/10 p-3 rounded-lg mr-4">
+                <i class="fa fa-globe text-primary text-xl"></i>
+              </div>
+              <div>
+                <h3 class="text-xl font-bold mb-3">Location Independence</h3>
+                <p class="text-gray-600">As long as you have a phone and internet connection, work from home on the couch, in a coffee shop, or while traveling... Earn money anytime, anywhere.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Requirements -->
+    <section id="requirements" class="py-16 md:py-24 bg-white">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+          <h2 class="text-[clamp(1.8rem,4vw,2.5rem)] font-bold text-dark mb-4">Work Requirements</h2>
+          <p class="text-gray-600 max-w-2xl mx-auto">Simple and achievable, female-friendly online job opportunities</p>
+        </div>
+        
+        <div class="max-w-3xl mx-auto">
+          <div class="bg-white rounded-xl shadow-card p-8">
+            <!-- Gender Requirement -->
+            <div class="flex items-start mb-6">
+              <div class="bg-primary/10 p-3 rounded-full mr-4">
+                <i class="fa fa-venus text-primary text-xl"></i>
+              </div>
+              <div>
+                <h3 class="text-xl font-bold mb-2">Inclusive Environment</h3>
+                <p class="text-gray-600">We are committed to creating a female-friendly work environment. Welcome all women who share our values to join us.</p>
+              </div>
+            </div>
+            
+            <!-- Age Requirement -->
+            <div class="flex items-start">
+              <div class="bg-primary/10 p-3 rounded-full mr-4">
+                <i class="fa fa-birthday-cake text-primary text-xl"></i>
+              </div>
+              <div>
+                <h3 class="text-xl font-bold mb-2">Adult Independence</h3>
+                <p class="text-gray-600">Must be 18 years or older. Start your independent earning and free growth journey after adulthood. Earn pocket money and build your savings with your own skills.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section id="contact" class="py-16 md:py-24 bg-gradient-to-br from-primary/5 to-secondary/5">
+      <div class="container mx-auto px-4">
+        <div class="max-w-3xl mx-auto bg-white rounded-2xl shadow-custom overflow-hidden">
+          <div class="p-8 md:p-12">
+            <div class="text-center mb-8">
+              <h2 class="text-[clamp(1.8rem,4vw,2.5rem)] font-bold text-dark mb-4">Contact Us</h2>
+            </div>
+            
+            <div class="space-y-8">
+              <a href="https://api.whatsapp.com/send/?phone=8617705921585&amp;" target="_blank" class="block w-full bg-whatsapp hover:bg-whatsapp/90 text-white font-semibold py-4 px-6 rounded-lg shadow-lg transition-all duration-300 hover:shadow-xl flex items-center justify-center">
+                <i class="fa fa-whatsapp text-2xl mr-3"></i>
+                <span class="text-xl md:text-2xl">Sign Up Now</span>
+              </a>
+              <div class="mt-3 text-center text-sm font-medium text-primary">Get Newcomer Gift Pack</div>
+              
+              <div class="bg-gray-50 p-6 rounded-lg">
+                <div class="flex items-start mb-4">
+                  <div class="bg-primary/10 p-3 rounded-full mr-4">
+                    <i class="fa fa-envelope text-primary text-xl"></i>
+                  </div>
+                  <div>
+                    <h3 class="text-xl font-bold mb-1">Email</h3>
+                    <p class="text-gray-600">support@timetrade-agency.com</p>
+                  </div>
+                </div>
+                
+                <div class="flex items-start">
+                  <div class="bg-primary/10 p-3 rounded-full mr-4">
+                    <i class="fa fa-phone text-primary text-xl"></i>
+                  </div>
+                  <div>
+                    <h3 class="text-xl font-bold mb-1">Phone</h3>
+                    <p class="text-gray-600">+86 400-123-4567</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="py-16 md:py-24 bg-white">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+          <h2 class="text-[clamp(1.8rem,4vw,2.5rem)] font-bold text-dark mb-4">Frequently Asked Questions</h2>
+          <p class="text-gray-600 max-w-2xl mx-auto">Answers to common questions about our platform</p>
+        </div>
+        
+        <div class="max-w-3xl mx-auto">
+          <div class="space-y-4">
+            <!-- Question 1 -->
+            <div class="border border-gray-200 rounded-lg overflow-hidden">
+              <button class="faq-toggle w-full flex items-center justify-between p-4 text-left font-medium hover:bg-gray-50 transition-all">
+                <span>How many hours do I need to work each day?</span>
+                <i class="fa fa-chevron-down text-gray-400 transition-transform"></i>
+              </button>
+              <div class="faq-content hidden p-4 pt-0 bg-gray-50">
+                <p class="text-gray-600">Work hours are completely up to you! You can freely choose the duration and time slots to work each day according to your schedule. The platform does not impose any mandatory requirements.</p>
+              </div>
+            </div>
+            
+            <!-- Question 2 -->
+            <div class="border border-gray-200 rounded-lg overflow-hidden">
+              <button class="faq-toggle w-full flex items-center justify-between p-4 text-left font-medium hover:bg-gray-50 transition-all">
+                <span>How are earnings calculated and withdrawn?</span>
+                <i class="fa fa-chevron-down text-gray-400 transition-transform"></i>
+              </button>
+              <div class="faq-content hidden p-4 pt-0 bg-gray-50">
+                <p class="text-gray-600">Gifts from users will be converted into cash at a certain rate. Daily earnings will be settled into your account every night. You can apply for withdrawal at any time, and the amount will be transferred to your bank card or Alipay account within 1-3 business days.</p>
+              </div>
+            </div>
+            
+            <!-- Question 3 -->
+            <div class="border border-gray-200 rounded-lg overflow-hidden">
+              <button class="faq-toggle w-full flex items-center justify-between p-4 text-left font-medium hover:bg-gray-50 transition-all">
+                <span>What equipment do I need?</span>
+                <i class="fa fa-chevron-down text-gray-400 transition-transform"></i>
+              </button>
+              <div class="faq-content hidden p-4 pt-0 bg-gray-50">
+                <p class="text-gray-600">All you need is a smartphone or computer and a stable internet connection. For voice or video work, it is recommended to prepare a pair of headphones and a microphone for a better user experience.</p>
+              </div>
+            </div>
+            
+            <!-- Question 5 -->
+            <div class="border border-gray-200 rounded-lg overflow-hidden">
+              <button class="faq-toggle w-full flex items-center justify-between p-4 text-left font-medium hover:bg-gray-50 transition-all">
+                <span>Is there a fee to join?</span>
+                <i class="fa fa-chevron-down text-gray-400 transition-transform"></i>
+              </button>
+              <div class="faq-content hidden p-4 pt-0 bg-gray-50">
+                <p class="text-gray-600">Joining is completely free with no hidden fees.</p>
+              </div>
+            </div>
+            
+            <!-- Question 6 -->
+            <div class="border border-gray-200 rounded-lg overflow-hidden">
+              <button class="faq-toggle w-full flex items-center justify-between p-4 text-left font-medium hover:bg-gray-50 transition-all">
+                <span>Are there any additional bonuses?</span>
+                <i class="fa fa-chevron-down text-gray-400 transition-transform"></i>
+              </button>
+              <div class="faq-content hidden p-4 pt-0 bg-gray-50">
+                <p class="text-gray-600">If your weekly diamonds reach or exceed 5,000, you will automatically receive an additional 25% bonus.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-12">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        <div class="mb-6 md:mb-0">
+          <div class="flex items-center">
+            <i class="fa fa-heart text-primary text-2xl mr-2"></i>
+            <span class="text-xl font-bold">TIMETRADE AGENCY</span>
+          </div>
+          <p class="text-gray-400 mt-2">Create a female-friendly work environment where talents and charm shine</p>
+        </div>
+        
+        <div class="flex space-x-4">
+          <a href="https://api.whatsapp.com/send/?phone=8617705921585&amp;" target="_blank" class="text-gray-400 hover:text-whatsapp transition-colors">
+                <i class="fa fa-whatsapp text-xl"></i>
+              </a>
+          <a href="#" class="text-gray-400 hover:text-primary transition-colors">
+            <i class="fa fa-weibo text-xl"></i>
+          </a>
+          <a href="#" class="text-gray-400 hover:text-primary transition-colors">
+            <i class="fa fa-wechat text-xl"></i>
+          </a>
+        </div>
+      </div>
+      
+      <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400 text-sm">
+        <p>© 2025 TIMETRADE AGENCY. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Success Modal -->
+  <div id="successModal" class="fixed inset-0 flex items-center justify-center z-50 hidden">
+    <div class="absolute inset-0 bg-black bg-opacity-50 backdrop-blur-sm"></div>
+    <div class="bg-white rounded-xl p-8 max-w-md w-full mx-4 relative z-10 transform transition-all">
+      <div class="text-center">
+        <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+          <i class="fa fa-check text-green-500 text-2xl"></i>
+        </div>
+        <h3 class="text-xl font-bold text-gray-900 mb-2">Information Submitted Successfully!</h3>
+        <p class="text-gray-600 mb-6">We will contact you via WhatsApp as soon as possible. Please stay tuned.</p>
+        <button id="closeModal" class="bg-primary hover:bg-accent text-white font-medium py-2 px-6 rounded-lg transition-all">
+          Confirm
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Navbar scroll effect
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 100) {
+        navbar.classList.add('shadow-md', 'py-2');
+        navbar.classList.remove('py-3');
+      } else {
+        navbar.classList.remove('shadow-md', 'py-2');
+        navbar.classList.add('py-3');
+      }
+    });
+
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+
+    // FAQ toggle
+    document.querySelectorAll('.faq-toggle').forEach(toggle => {
+      toggle.addEventListener('click', () => {
+        const content = toggle.nextElementSibling;
+        const icon = toggle.querySelector('i');
+        
+        if (content.classList.contains('hidden')) {
+          content.classList.remove('hidden');
+          icon.classList.add('rotate-180');
+        } else {
+          content.classList.add('hidden');
+          icon.classList.remove('rotate-180');
+        }
+      });
+    });
+
+    // Close modal
+    document.getElementById('closeModal').addEventListener('click', () => {
+      document.getElementById('successModal').classList.add('hidden');
+    });
+
+    // Click outside to close modal
+    document.getElementById('successModal').addEventListener('click', (e) => {
+      if (e.target === document.getElementById('successModal')) {
+        document.getElementById('successModal').classList.add('hidden');
+      }
+    });
+  </script>
+
+
+    </body></html>
